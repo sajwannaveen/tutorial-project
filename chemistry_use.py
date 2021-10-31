@@ -3,6 +3,11 @@ from Chemistry12Funtion import *
 from main_funtion import *
 import question1
 #from question1 import question
+import os
+from Chemistry12Funtion import *
+from main_funtion import *
+import question1
+#from question1 import question
 def Chemistry():
     while(1==1):
         print("``````````")
@@ -60,6 +65,10 @@ Quantitatively, the extent to which a solute is dissociated or associated can be
             print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("        g)Molalty :-")
             solution.expression_for_contiontration.Molality("          ");Nsec(2)
+                        print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print("        b)Volume percentage :-")
+            solution.expression_for_contiontration.VolumePercentage("          ");Nsec(2)
+            print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             writespeak("Press enter for going next topic or any character for end the series ")
             a=input()
@@ -95,6 +104,10 @@ Quantitatively, the extent to which a solute is dissociated or associated can be
             print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             writespeak("Press enter for going next topic or any character for end the series ")
             a=input()
+                        print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print("        b)Volume percentage :-")
+            solution.expression_for_contiontration.VolumePercentage("          ");Nsec(2)
+            print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             if(a!=""):
                 os.system("cls")
                 Chemistry()
@@ -110,6 +123,10 @@ Quantitatively, the extent to which a solute is dissociated or associated can be
             print("       Coclution from this equation  :-")
             solution.VapourPressureofLiquidSolutions.VapourPressureofLiquidLiquidSolutionsconclusions("      ")
             solution.VapourPressureofLiquidSolutions.VapourPressureofLiquidLiquidSolutionsGraph();Nsec(2)
+                        print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print("        b)Volume percentage :-")
+            solution.expression_for_contiontration.VolumePercentage("          ");Nsec(2)
+            print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("    Vapour pressure of solid liquid solution")
             solution.VapourPressureofLiquidSolutions.VapourPressureofSolidLiquidSolutionsconclusions("      ");Nsec(2)
             writespeak("Press enter for going next topic or any character for end the series ")
@@ -118,6 +135,10 @@ Quantitatively, the extent to which a solute is dissociated or associated can be
                 os.system("cls")
                 Chemistry()
             main()
+                        print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print("        b)Volume percentage :-")
+            solution.expression_for_contiontration.VolumePercentage("          ");Nsec(2)
+            print("        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             #############################################################################################################
             #                                                                                                   fourth page
             #############################################################################################################
